@@ -1,0 +1,46 @@
+{
+  "name": "jot_web_backend",
+  "version": "1.0.0",
+  "description": "back-end APIs for jot website",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server-testing": "node server.js",
+    "server-dev": "nodemon server.js"
+  },
+  "author": "dev_elys92",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "bcryptjs": "^3.0.2",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.1",
+    "express-async-handler": "^1.2.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.2.1",
+    "express-session": "^1.18.1",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.14.0",
+    "pg-hstore": "^2.3.4",
+    "request-ip": "^3.3.0",
+    "sequelize": "^6.37.6",
+    "slugify": "^1.6.6",
+    "ua-parser-js": "^2.0.3",
+    "winston": "^3.17.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2"
+  }
+}
